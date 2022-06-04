@@ -1,0 +1,111 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+}
+
+.dimo-header-bg {
+    background: url(images/main.jpg);
+    background-size: cover;
+    background-color: #383838;
+    background-blend-mode: overlay;
+}
+
+.dimo-offers-bg {
+    background: url(images/main-2.png);
+    background-size: cover;
+    background-color: #383838;
+    background-blend-mode: overlay;
+}
+
+.navbar-toggler-icon {
+    background-image: url("images/menu.svg");
+}
+
+.dimo-logo {
+    height: 4rem;
+}
+
+.dimo-text-color {
+    color: #BBD541;
+}
+
+.dimo-bg {
+    background-color: #BBD541;
+}
+
+.lead {
+    font-size: 130%;
+}
+
+.nav-link {
+    margin-right: 1rem;
+}
+
+
+.carousel-nav-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.carousel-item .col,
+.carousel-item .col-sm,
+.carousel-item .col-md {
+    margin: 1rem;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.middle-image-container {
+    width: 20rem;
+}
+
+.middle-image-bg {
+    background-color: #BBD541;
+    height: 18rem;
+    left: 4rem;
+    top: 0rem;
+    width: 12rem;
+    z-index: -100;
+    border-radius: 1rem;
+}
+
+.middle-card-bg-img {
+    position: absolute;
+    /* width: 1rem; */
+    top: -2rem;
+    right: 0rem;
+    height: 10rem;
+    clip: rect(2rem, 6rem, 11rem, 0rem);
+    opacity: 0.1;
+    z-index: -10;
+}
+
+.middle-image {
+    height: 100%;
+}
+
+.other-cards {
+    height: 5rem;
+}
+
+.card-bg-wrangler {
+    background: url("images/jeep-card.jpg");
+    background-size: cover;
+    background-position: right;
+    height: 18rem;
+}
+
+.card-bg-wrangler .card-data-1 {
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.bg-offers{
+    backdrop-filter: blur(40px);
+    background-color: hsla(0,0%,100%,.06);
+}
